@@ -6,70 +6,80 @@
     <title>Home Macondo</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header><nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/sobreelclub.html">Sobre el club</a></li>
-                    <li><a href="pages/clubes.html">Clubes de lectura</a></li>
-                    <li><a href="pages/galeria.html">Galería</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            <section>
-                <img src="assets/Image_hero.png" alt="libros y manos">
-                <h1>Macondo, tu club de lectura</h1>
-                <h2>Lecturas compartidas, charlas sinceras y mundos por descubrir</h2>
-                <p>Los libros abren mundos que no sabías que existían.</p>
-                <Button>¡Quiero info sobre Macondo!</Button>
-            </section>
-        </header>
-        <main>  
-        <section>
-                <h2>Nuestros clubes de lectura</h2>
-                    <div class="block">
-                        <img src="assets/Lectores empedernidos.png" alt="hombre con muchos libros">
-                        <h3><a href="pages/clubes.html">Lectores empedernidos</a></h3>
-                        <p>Para quienes leen todo el año sin descanso.</p>
-                    </div>
-                     <div class="block">
-                        <img src="assets/Lectores con causa.png" alt="mujer oliendo libro">
-                        <h3><a href="pages/clubes.html">Lectores con causa</a></h3>
-                        <p>Para quienes se sumergen en lecturas temáticas</p>
-                    </div>
-                     <div class="block">
-                        <img src="assets/Lectores de ocasión.png" alt="mujer con libro y taza de café">
-                        <h3><a href="pages/clubes.html">Lectores de ocasión</a></h3>
-                        <p>Para quienes se suman a la lectura solo en eventos especiales</p>
-                    </div>
-        </section>
+    <header class="header">
+    <div class="logo">Logo</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/sobreelclub.html">Sobre Macondo</a></li>
+        <li><a href="pages/clubes.html">Clubes de lectura</a></li>
+        <li><a href="pages/galeria">Galería</a></li>
+        <li><a href="pages/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Macondo, tu club de lectura</h1>
+        <h2>Lecturas compartidas, charlas sinceras y mundos por descubrir</h2>
+        <img src="assets/banner.jpg" alt="Imagen destacada" />
+        <p>Los libros abren mundos que no sabías que existían.</p>
+        <button>¡Quiero info sobre Macondo!</button>
+      </div>
+    </section>
+
+    <section class="clubes">
+      <h2>Nuestros clubes de lectura</h2>
+      <div class="clubes-grid">
+        <div class="card">
+          <img src="assets/club1.jpg" alt="Lectores empedernidos">
+          <h3>Lectores empedernidos</h3>
+          <p>Para quienes leen todo el año sin descanso.</p>
+        </div>
+        <div class="card">
+          <img src="assets/club2.jpg" alt="Lectores con causa">
+          <h3>Lectores con causa</h3>
+          <p>Para quienes se sumergen en lecturas temáticas.</p>
+        </div>
+        <div class="card">
+          <img src="assets/club3.jpg" alt="Lectores de ocasión">
+          <h3>Lectores de ocasión</h3>
+          <p>Para quienes se suman a la lectura en eventos especiales.</p>
+        </div>
+      </div>
+    </section>
     </main>
+
     <footer>
-        <section>
-            <h2>Sobre Macondo</h2>
-            <p>Un club de lectura virtual para quienes quieren leer acompañados. Compartimos libros, charlas y preguntas que nos transforman.</p>
-        </section>
-        <section>
-            <h2>Contacto</h2>
-            <p>macondo@gmail.com</p>
-        </section>
-        <section>
-            <h2>Navegación</h2>
-            <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/sobreelclub.html">Sobre el club</a></li>
-                    <li><a href="pages/clubes.html">Clubes de lectura</a></li>
-                    <li><a href="pages/galeria.html">Galería</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-            </ul>
-        </section>
-        <section></section>
-            <h2>Seguinos</h2>
-            <ul>
-                <li><a href="https://www.facebook.com/profile.php?id=100076609278175">taller_macondo</a></li>
-                <li><a href="https://www.instagram.com/taller_macondo/">@taller_macondo</a></li>
-            </ul>
-        </section>
-    </footer>
+      <footer class="footer">
+      <div class="footer-column">
+      <h4>Sobre Macondo</h4>
+      <p>Un club de lectura virtual para quienes quieren leer acompañados.</p>
+      </div>
+      <div class="footer-column">
+      <h4>Contacto</h4>
+      <p>macondo@gmail.com</p>
+      </div>
+      <div class="footer-column">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/sobreelclub.html">Sobre Macondo</a></li>
+        <li><a href="pages/clubes.html">Clubes de lectura</a></li>
+        <li><a href="pages/galeria">Galería</a></li>
+        <li><a href="pages/contacto.html">Contacto</a></li>
+      </ul>
+      </div>
+      <div class="footer-column">
+      <h4>Seguinos</h4>
+      <p>@clubmacondo</p>
+      <p>/clubmacondo</p>
+      </div>
+    </footer> 
+    
 </body>
 </html>
