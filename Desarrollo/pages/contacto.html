@@ -6,72 +6,93 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
-    <header><nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="sobreelclub.html">Sobre el club</a></li>
-                    <li><a href="clubes.html">Clubes de lectura</a></li>
-                    <li><a href="galeria.html">Galería</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <header class="header">
+        <div class="logo">Logo</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="sobreelclub.html">Sobre Macondo</a></li>
+                <li><a href="clubes.html">Clubes de lectura</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section class="hero">
-            <img src="../assets/Image_hero.png" alt="">
-            <h1>Queremos leerte</h1>
+        <section class="hero hero-small">
+            <h1>Contacto</h1>
+            <img src="" alt="" />
         </section>
-        <h2>Si tenés dudas, ideas, ganas de sumarte o simplemente saludarnos, este es tu lugar.</h2>
-        <section class="form">
-            <label for=>Tu nombre completo</label>
-            <input type="text" name="" id="">
-            <label for=>Tu email</label>
-            <input type="email" name="" id="">
-            <label for="">¿A qué club querés sumarte?</label>
-            <ul>
-                <li><input type="checkbox" name="" id="">
-                    <label for="">Lectores empedernidos</label>
-                </li>
-                <li><input type="checkbox" name="" id="">
-                    <label for="">Lectores con causa</label>
-                </li>
-                <li>
-                    <input type="checkbox" name="" id="">
-                    <label for="">Lectores de ocasión</label>
-                </li>
-            </ul>
-            <label for="">Algún mensaje que nos quieras dejar...(opcional)</label>
-            <textarea name="" id=""></textarea>
-            <button type="submit"class="primary">Enviar</button>
-            <p>Te vamos a escribir pronto con toda la información sobre los clubes, sus fechas y cómo sumarte. ¡Gracias por acercarte a Macondo!</p>
-        </section>
+
+        <section class="formulario-contacto">
+            <p>Si querés sumarte a Macondo o hacernos alguna consulta, por favor completá el siguiente formulario:</p>
+
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email"/>
+                </div>
+
+                <div class="form-group">
+                <label>¿A qué club querés sumarte?</label>
+                    <div class="checkbox-group">
+                         <label><input type="checkbox"  /> Lectores empedernidos</label>
+                        <label><input type="checkbox" /> Lectores con causa</label>
+                        <label><input type="checkbox" /> Lectores de ocasión</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                     <label for="mensaje">Mensaje o consulta:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                    <input type="checkbox" required />Acepto los términos y condiciones
+                    </label>
+                 </div>
+
+                 <button type="submit">Enviar mensaje</button>
+            </form>
+        </section> 
     </main>
-    <footer>
-        <section>
-            <h2>Sobre Macondo</h2>
-            <p>Un club de lectura virtual para quienes quieren leer acompañados. Compartimos libros, charlas y preguntas que nos transforman.</p>
-        </section>
-        <section>
-            <h2>Contacto</h2>
+
+    <footer class="footer">
+        <div class="footer-column">
+         <h4>Sobre Macondo</h4>
+            <p>Un club de lectura virtual para quienes quieren leer acompañados.</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Contacto</h4>
             <p>macondo@gmail.com</p>
-        </section>
-        <section>
-            <h2>Navegación</h2>
+        </div>
+
+        <div class="footer-column">
+            <h4>Navegación</h4>
             <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="sobreelclub.html">Sobre el club</a></li>
-                    <li><a href="clubes.html">Clubes de lectura</a></li>
-                    <li><a href="galeria.html">Galería</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-        </section>
-        <section></section>
-            <h2>Seguinos</h2>
-            <ul>
-                <li><a href="https://www.facebook.com/profile.php?id=100076609278175">taller_macondo</a></li>
-                <li><a href="https://www.instagram.com/taller_macondo/">@taller_macondo</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="sobreelclub.html">Sobre Macondo</a></li>
+                <li><a href="clubes.html">Clubes de lectura</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
             </ul>
-        </section>
+        </div>
+
+        <div class="footer-column">
+            <h4>Seguinos</h4>
+            <p>@clubmacondo</p>
+            <p>/clubmacondo</p>
+        </div>
     </footer>
 </body>
 </html>
