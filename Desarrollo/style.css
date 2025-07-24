@@ -1,0 +1,27 @@
+h1{
+    color:whitesmoke;
+    font-size: 48px;
+    
+}
+nav{
+    background-color: aquamarine;
+    font-size: 14px;
+    }
+header{
+    background-color: #670051;
+    }
+main {
+    background-color: antiquewhite;
+}
+.hero{
+    background-color: #670051;
+}
+footer{
+    background-color: lightpink;
+}
+
+img{
+    width: 800px;
+    height:600px;
+
+}
