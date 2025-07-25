@@ -1,4 +1,4 @@
-/**CSS General de toda la web**/
+/**-------------------------- CSS de general de la web---------------------**/
 * {
   margin: 0;
   padding: 0;
@@ -51,6 +51,11 @@ body {
   font-size: 2rem;
   }
 
+  .hero-small h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
   .footer {
   display: flex;
   flex-wrap: wrap;
@@ -95,8 +100,8 @@ body {
  color: #feead4
 }
 
+/**-------------------------- CSS de Home---------------------**/
 
-/**CSS de Home**/
 .hero {
   background-color: #ff997a;
   text-align: center;
@@ -109,7 +114,7 @@ body {
 }
 
 .hero-content h2 {
-  font-size: 40px;
+  font-size: 30px;
   color: #1c1b1b;
   margin-bottom: 20px;
 }
@@ -133,8 +138,71 @@ body {
 
 }
 
-
-.hero-small h1 {
-  font-size: 60px;
-  margin-bottom: 10px;
+.clubes {
+  padding: 40px 20px;
+  background-color: #feead4;
+  text-align: center;
+  font-size: 36px;
 }
+
+.clubes-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .clubes-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card {
+  background-color:#283e50;
+  border-radius: 10px;
+  border-color: #9ad0c3;
+  border-width: 7px;
+  border-style: solid;
+  padding: 20px;
+  text-align: center;
+  box-shadow:
+    0 4px 8px rgba(154, 208, 195, 0.4),
+    0 2px 4px rgba(255, 153, 122, 0.2); 
+  transition: box-shadow 0.3s ease-in-out;
+  }
+ 
+.card:hover {
+  box-shadow:
+    0 8px 16px rgba(154, 208, 195, 0.6),
+    0 4px 8px rgba(255, 153, 122, 0.4);
+}
+
+.card h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #feead4;
+}
+
+.card p {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+/**-------------------------- CSS de ---------------------**/
