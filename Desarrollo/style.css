@@ -1,27 +1,95 @@
-h1{
-    color:whitesmoke;
-    font-size: 48px;
-    
-}
-nav{
-    background-color: aquamarine;
-    font-size: 14px;
+/**CSS General de toda la web**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
     }
-header{
-    background-color: #670051;
-    }
-main {
-    background-color: antiquewhite;
-}
-.hero{
-    background-color: #670051;
-}
-footer{
-    background-color: lightpink;
+
+body {
+    font-family:'Nunito','sans-serif';
+    color: #222;
+    line-height: 1.6;
+    background-color: #ffffff;
 }
 
-img{
-    width: 800px;
-    height:600px;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: #283e50;
+  }
 
+.logo img {
+  max-width: 500px;   
+  height: auto;
+  display: block;
+ }
+ 
+.nav {
+  background-color: #9ad0c3;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  }
+
+.nav ul {
+  list-style: none;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #171717;
+  font-weight: 400;
+  font-size: 2rem;
+  }
+
+/**CSS de Home**/
+.hero {
+  background-color: #ff997a;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  font-size: 40px;
+  color: #1c1b1b;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 30px;
+  color: #1c1b1b;
+  margin-bottom: 20px;
+}
+
+.hero-content button {
+  padding: 24px 24px;
+  background-color: #feead4;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Nunito','sans-serif';
+  font-weight:bold;
+  border: none;          
+  outline: none;  
+
+}
+
+
+.hero-small h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
 }
