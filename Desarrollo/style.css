@@ -9,7 +9,7 @@ body {
     font-family:'Nunito','sans-serif';
     color: #222;
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color:#feead4
 }
 
 .header {
@@ -50,6 +50,51 @@ body {
   font-weight: 400;
   font-size: 2rem;
   }
+
+  .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #283e50;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  padding: 10px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size:x-large;
+  font-weight:bold;
+  color: #feead4
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  font-size: larger;
+  }
+
+.footer-column a,
+.footer-column a:visited,
+.footer-column a:active {
+  color: #feead4 !important;
+  text-decoration: none !important;
+}
+
+.footer-column a:hover{
+  color:#ff997a !important;
+  text-decoration: underline !important;
+}
+
+.footer-column p {
+ font-size: larger;
+ color: #feead4
+}
+
 
 /**CSS de Home**/
 .hero {
