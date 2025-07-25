@@ -142,7 +142,7 @@ body {
   padding: 40px 20px;
   background-color: #feead4;
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .clubes-grid {
@@ -165,12 +165,13 @@ body {
   border-color: #9ad0c3;
   border-width: 7px;
   border-style: solid;
-  padding: 20px;
-  text-align: center;
-  box-shadow:
+   box-shadow:
     0 4px 8px rgba(154, 208, 195, 0.4),
     0 2px 4px rgba(255, 153, 122, 0.2); 
   transition: box-shadow 0.3s ease-in-out;
+  padding: 20px;
+  text-align: center;
+ 
   height: 600px; 
   display: flex;
   flex-direction: column;
@@ -202,3 +203,87 @@ body {
 }
 
 /**-------------------------- CSS de Sobre Macondo ---------------------**/
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #feead4;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.info-box {
+  background-color:#283e50;
+  border-radius: ;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #9ad0c3;
+  border-width: 7px;
+  border-style: solid;
+   box-shadow:
+    0 4px 8px rgba(154, 208, 195, 0.4),
+    0 2px 4px rgba(255, 153, 122, 0.2); 
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.info-box h2 {
+font-size: 30px;
+color: #feead4;
+}
+
+.info-box p {
+  font-size: 24px;
+  color: #ffffff;
+}
+.info-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin: 15px 0;
+}
+
+.faq {
+  background-color: #e5e8ec;
+  padding: 40px 20px;
+}
+
+.faq details {
+  margin-bottom: 10px;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.faq summary {
+  font-weight: bold;
+}
+
+.form-section {
+  padding: 30px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.form-section textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 120px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+    }
+
+.form-section button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3a4a5a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
