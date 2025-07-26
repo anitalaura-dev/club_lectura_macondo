@@ -315,18 +315,19 @@ text-align: center;
   /**-------------------------- CSS de Tipos de clubes ---------------------**/
 .club-section {
   padding: 40px 20px;
-  background-color: #ffffff;
+  background-color:#feead4;
 }
 
 .club-section h2 {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 48px;
+  font-weight: 800px;
 }
 
 .club-card {
-  background-color: #f1f3f6;
-  max-width: 600px;
+  background-color:#ffffff;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 25px;
   border-radius: 10px;
@@ -335,6 +336,7 @@ text-align: center;
 
 .club-card .descripcion {
   font-style: italic;
+  font-size: 30px;
   margin-bottom: 15px;
 }
 
@@ -342,6 +344,7 @@ text-align: center;
   list-style: none;
   padding-left: 0;
   margin-bottom: 15px;
+  font-size: 24px;
 }
 
 .club-card li {
@@ -350,17 +353,18 @@ text-align: center;
 
 .club-card .detalle {
   margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 24px;
 }
 
 .club-card button {
-  padding: 10px 20px;
+  padding: 16px 24px; 
+  font-size: 20px; 
   background-color: #3a4a5a;
   color: white;
   border: none;
   border-radius: 6px;
-  cursor: pointer;
-  font-weight: 500;
+  font-family: 'Nunito','sans-serif';
+  font-weight:bold;
 }
 
 /**-------------------------- CSS de Galeria ---------------------**/
